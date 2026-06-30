@@ -20,7 +20,7 @@ def get_connection():
 
 @app.route("/")
 def home():
-    return "<h1>Hello DevOps! 🚀</h1>"
+    return "<h1>Hello Docker! 🚀</h1>"
 
 
 @app.route("/add")
