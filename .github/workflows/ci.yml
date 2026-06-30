@@ -34,8 +34,8 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t mesoaltov/docker-latihan:latest .
+          docker build -t maltov/docker-latihan:latest .
 
       - name: Push Docker Image
         run: |
-          docker push mesoaltov/docker-latihan:latest
+          docker push maltov/docker-latihan:latest
